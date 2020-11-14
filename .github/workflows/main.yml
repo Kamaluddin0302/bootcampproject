@@ -28,6 +28,6 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./ newsurgedeploy.surge.sh --token ${{secrets.Surge_Sectet}}
+        run: surge ./ newsurgedeploy.surge.sh --token ${{secrets.Surge_Token}}
 
        
